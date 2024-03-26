@@ -15,7 +15,9 @@
     "clean": "gatsby clean"
   },
   "dependencies": {
+    "@emotion/react": "^11.11.4",
     "gatsby": "^5.13.3",
+    "gatsby-plugin-material-ui": "^4.0.2",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
   }

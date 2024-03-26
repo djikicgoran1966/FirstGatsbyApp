@@ -1,17 +1,17 @@
 import * as React from "react"
-
+import { Link } from 'gatsby'
+import Layout from "../components/layout"
 
 
 
 const IndexPage = () => {
   return (
-    <main >
-      <h1 style={{ fontWeight:"bolder"}}>Congratulations</h1>
-      <h1 style={{ fontWeight:"lighter"}}>Congratulations</h1>
-    </main>
+    <Layout pageTitle="Home page" >
+       <p>I'm making this by following the Gatsby Tutorial.</p>
+    </Layout>
   )
 }
 
 export default IndexPage
 
-export const Head = () => <title>Home </title>
+export const Head = () => <title>Home page </title>

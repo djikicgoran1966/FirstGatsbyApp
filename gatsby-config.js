@@ -7,5 +7,8 @@ module.exports = {
     siteUrl: `https://www.yourdomain.tld`,
     description:"First Gatsby site"
   },
-  plugins: [`gatsby-plugin-material-ui`],
+  plugins: [
+    "gatsby-plugin-image",
+    "gatsby-plugin-sharp",
+   ],
 }
